@@ -1,1 +1,118 @@
-const _0x920804=_0x308b;function _0x438b(){const _0x5bee55=['ing\x20your\x20r','VZeLI','video','mp4','🕣|-Process','nd\x20send\x20so','zfKrO','error','Error\x20down','VGlKb','bgbZX','✮͢ꓸ⃟ꓸ⃟ꓸ✮͢🖤\x20Tit','replace','le:\x20','Download\x20Y','jbtcA','equest.\x20Pl','createRead','lgsre','No\x20results','pipe','data','om/youtube','AAxxN','Media','videoId','cache','&apikey=','\x20[type]','messageID','hnIkP','gNSJG','pop','close','\x20your\x20','ch\x20query.','length','g\x20from\x20key','join','message','𝐈𝐬𝐥𝐚𝐦𝐢𝐜𝐤\x20𝐂','uKEyd','finish','Stream','RPVJt','&type=','https://pr','downloadUr','node-fetch','word\x20searc','audio','axios','song','6943184XFhlFA','Ybwqr','ouTube\x20son','tlRcs','wHJSn','Reaction','BIGAU','?id=','376880vWRiUW','eStream','\x20🎧:','setMessage','threadID','h\x20and\x20link','download\x20s','10CqwOnd','epXod','\x20your\x20sear','Sredl','Failed\x20to\x20','iyansh-ai.','ng:\x20','download\x20f','147569cRQveP','exports','ease\x20wait.','6qPHGFd','1.0.3','\x20found\x20for','393421cLUGXo','age','existsSync','https','[songName]','310rBdwJl','videos','onrender.c','oKiNK','mp3','path','sendMessag','download\x20a','s\x20code:\x20','526356lmCfpU','title','ong:\x20','clCBJ','mkdirSync','rPayj','ere','get','KlbPP','loading\x20fi','fRfes','unsendMess','fWWAw','unlinkSync','\x0a\x0a\x20Here\x20is','𝐲𝐛𝐞𝐫','priyansh-h','statusCode','591561AXDsjb','createWrit','ile.\x20Statu','yt-search','407994DMYPXM'];_0x438b=function(){return _0x5bee55;};return _0x438b();}function _0x308b(_0x37b125,_0x9b3ca5){const _0xae2673=_0x438b();return _0x308b=function(_0x49150c,_0x4b4ca6){_0x49150c=_0x49150c-(0x1*-0x76f+0x27*-0xd7+0x233*0x13);let _0xc7d63b=_0xae2673[_0x49150c];return _0xc7d63b;},_0x308b(_0x37b125,_0x9b3ca5);}(function(_0x30a10f,_0x40c70a){const _0x1b9aea=_0x308b,_0x43ab1b=_0x30a10f();while(!![]){try{const _0x279bf3=-parseInt(_0x1b9aea(0x1a0))/(0x9*0x1b5+0x6ee+-0x164a)*(parseInt(_0x1b9aea(0x1a3))/(-0x170*0x13+0x12d9+0x879))+-parseInt(_0x1b9aea(0x1ca))/(-0x2c3+-0x1998+-0x1c5e*-0x1)+-parseInt(_0x1b9aea(0x208))/(0x1*0x797+0x2328+0x1*-0x2abb)+-parseInt(_0x1b9aea(0x20f))/(-0x4*0x35f+0x1*0x87e+0x503)*(-parseInt(_0x1b9aea(0x1b4))/(0xb59+0x1e8a*-0x1+0x1337))+parseInt(_0x1b9aea(0x1a6))/(0x17b*0x3+-0xb*-0x199+-0x15fd)+-parseInt(_0x1b9aea(0x200))/(0xb1f+-0x731+-0x3e6)+-parseInt(_0x1b9aea(0x1c6))/(0xa02+-0x17ae+0xdb5)*(-parseInt(_0x1b9aea(0x1ab))/(0x1724+-0x24be*0x1+0xda4));if(_0x279bf3===_0x40c70a)break;else _0x43ab1b['push'](_0x43ab1b['shift']());}catch(_0x252a09){_0x43ab1b['push'](_0x43ab1b['shift']());}}}(_0x438b,0x4f62f+0x2*0x51e9f+-0x415fe));const fetch=require(_0x920804(0x1fb)),axios=require(_0x920804(0x1fe)),fs=require('fs'),path=require(_0x920804(0x1b0)),ytSearch=require(_0x920804(0x1c9)),https=require(_0x920804(0x1a9));module[_0x920804(0x1a1)]={'config':{'name':_0x920804(0x1ff),'version':_0x920804(0x1a4),'hasPermssion':0x0,'credits':_0x920804(0x1f3)+_0x920804(0x1c3),'description':_0x920804(0x1d9)+_0x920804(0x202)+_0x920804(0x1f0)+_0x920804(0x1fc)+_0x920804(0x20d),'commandCategory':_0x920804(0x1e3),'usages':_0x920804(0x1aa)+_0x920804(0x1e7),'cooldowns':0x5,'dependencies':{'node-fetch':'','yt-search':''}},'run':async function({api:_0x1e20cd,event:_0x73cece,args:_0x46ad5a}){const _0x587882=_0x920804,_0x2f52bc={'tlRcs':function(_0x4c3242,_0x559376){return _0x4c3242(_0x559376);},'Ybwqr':function(_0x2b4c92,_0x416003){return _0x2b4c92===_0x416003;},'rPayj':_0x587882(0x1f5),'fRfes':function(_0xf21581,_0x3d16ff){return _0xf21581(_0x3d16ff);},'VZeLI':_0x587882(0x1d2),'zfKrO':function(_0x3d0327,_0x28cc3d){return _0x3d0327>_0x28cc3d;},'RPVJt':function(_0xed9970,_0x205936){return _0xed9970===_0x205936;},'jbtcA':function(_0x51f75f,_0x476b62){return _0x51f75f-_0x476b62;},'VGlKb':_0x587882(0x1fd),'clCBJ':function(_0x12607f,_0x5edcc2){return _0x12607f-_0x5edcc2;},'lgsre':_0x587882(0x1cd),'bgbZX':_0x587882(0x1cf)+_0x587882(0x1cb)+_0x587882(0x1db)+_0x587882(0x1a2)+'..','hnIkP':function(_0x4164af,_0x34ce62){return _0x4164af(_0x34ce62);},'AAxxN':_0x587882(0x1de)+_0x587882(0x1a5)+_0x587882(0x19a)+_0x587882(0x1ee),'oKiNK':_0x587882(0x1c4)+_0x587882(0x1ba),'Sredl':function(_0x506537,_0x261955){return _0x506537===_0x261955;},'wHJSn':_0x587882(0x1af),'BIGAU':_0x587882(0x1ce),'uKEyd':_0x587882(0x1e5),'gNSJG':function(_0x177e5e,_0x40d08f){return _0x177e5e===_0x40d08f;}};let _0x5bf639,_0x57da47;_0x2f52bc[_0x587882(0x1d1)](_0x46ad5a[_0x587882(0x1ef)],0x1ad3*0x1+0x207c+-0x3b4e)&&(_0x2f52bc[_0x587882(0x1f7)](_0x46ad5a[_0x2f52bc[_0x587882(0x1da)](_0x46ad5a[_0x587882(0x1ef)],-0x1552*-0x1+-0x224b+0xcfa)],_0x2f52bc[_0x587882(0x1d4)])||_0x2f52bc[_0x587882(0x201)](_0x46ad5a[_0x2f52bc[_0x587882(0x1b7)](_0x46ad5a[_0x587882(0x1ef)],-0xe5e+-0x1*-0x18eb+-0x384*0x3)],_0x2f52bc[_0x587882(0x1dd)]))?(_0x57da47=_0x46ad5a[_0x587882(0x1eb)](),_0x5bf639=_0x46ad5a[_0x587882(0x1f1)]('\x20')):(_0x5bf639=_0x46ad5a[_0x587882(0x1f1)]('\x20'),_0x57da47=_0x2f52bc[_0x587882(0x1d4)]);const _0x4cc2d5=await _0x1e20cd[_0x587882(0x1b1)+'e'](_0x2f52bc[_0x587882(0x1d5)],_0x73cece[_0x587882(0x20c)],null,_0x73cece[_0x587882(0x1e8)]);try{const _0x1146e6=await _0x2f52bc[_0x587882(0x1e9)](ytSearch,_0x5bf639);if(!_0x1146e6||!_0x1146e6[_0x587882(0x1ac)][_0x587882(0x1ef)])throw new Error(_0x2f52bc[_0x587882(0x1e2)]);const _0x40e55c=_0x1146e6[_0x587882(0x1ac)][-0x2*0x923+0x3*-0x8b5+-0x8e1*-0x5],_0x2618b8=_0x40e55c[_0x587882(0x1e4)],_0x2b2cc1=_0x2f52bc[_0x587882(0x1ae)],_0x272ec7=_0x587882(0x1f9)+_0x587882(0x19d)+_0x587882(0x1ad)+_0x587882(0x1e1)+_0x587882(0x207)+_0x2618b8+_0x587882(0x1f8)+_0x57da47+_0x587882(0x1e6)+_0x2b2cc1;_0x1e20cd[_0x587882(0x20b)+_0x587882(0x205)]('⌛',_0x73cece[_0x587882(0x1e8)],()=>{},!![]);const _0x2f3262=await axios[_0x587882(0x1bb)](_0x272ec7),_0x8a6c26=_0x2f3262[_0x587882(0x1e0)][_0x587882(0x1fa)+'l'],_0x124270=_0x40e55c[_0x587882(0x1b5)][_0x587882(0x1d7)](/[^a-zA-Z0-9 \-_]/g,''),_0xa1b832=_0x124270+'.'+(_0x2f52bc[_0x587882(0x19b)](_0x57da47,_0x2f52bc[_0x587882(0x1d4)])?_0x2f52bc[_0x587882(0x204)]:_0x2f52bc[_0x587882(0x206)]),_0x119e42=path[_0x587882(0x1f1)](__dirname,_0x2f52bc[_0x587882(0x1f4)]),_0x15abad=path[_0x587882(0x1f1)](_0x119e42,_0xa1b832);!fs[_0x587882(0x1a8)](_0x119e42)&&fs[_0x587882(0x1b8)](_0x119e42,{'recursive':!![]});const _0x58cccb=fs[_0x587882(0x1c7)+_0x587882(0x209)](_0x15abad);await new Promise((_0x4fa338,_0x2f7e76)=>{const _0x5c7ec0=_0x587882,_0x504c9f={'KlbPP':function(_0x5a372b,_0x27eef5){const _0x49d9a9=_0x308b;return _0x2f52bc[_0x49d9a9(0x201)](_0x5a372b,_0x27eef5);},'fWWAw':_0x2f52bc[_0x5c7ec0(0x1b9)],'epXod':function(_0x31bcd7,_0xeef13){const _0x554f29=_0x5c7ec0;return _0x2f52bc[_0x554f29(0x1be)](_0x31bcd7,_0xeef13);}};https[_0x5c7ec0(0x1bb)](_0x8a6c26,_0x386792=>{const _0xd2cb63=_0x5c7ec0;_0x504c9f[_0xd2cb63(0x1bc)](_0x386792[_0xd2cb63(0x1c5)],0xd5e+-0x1e*0x74+-0x56*-0x3)?(_0x386792[_0xd2cb63(0x1df)](_0x58cccb),_0x58cccb['on'](_0x504c9f[_0xd2cb63(0x1c0)],()=>{const _0x3d3e48=_0xd2cb63;_0x58cccb[_0x3d3e48(0x1ec)](_0x4fa338);})):_0x504c9f[_0xd2cb63(0x199)](_0x2f7e76,new Error(_0xd2cb63(0x19c)+_0xd2cb63(0x19f)+_0xd2cb63(0x1c8)+_0xd2cb63(0x1b3)+_0x386792[_0xd2cb63(0x1c5)]));})['on'](_0x2f52bc[_0x5c7ec0(0x1cc)],_0x5c3c90=>{const _0x2d7c34=_0x5c7ec0;fs[_0x2d7c34(0x1c1)](_0x15abad),_0x2f52bc[_0x2d7c34(0x203)](_0x2f7e76,new Error(_0x2d7c34(0x1d3)+_0x2d7c34(0x1bd)+_0x2d7c34(0x1d8)+_0x5c3c90[_0x2d7c34(0x1f2)]));});}),_0x1e20cd[_0x587882(0x20b)+_0x587882(0x205)]('🩷',_0x73cece[_0x587882(0x1e8)],()=>{},!![]),await _0x1e20cd[_0x587882(0x1b1)+'e']({'attachment':fs[_0x587882(0x1dc)+_0x587882(0x1f6)](_0x15abad),'body':_0x587882(0x1d6)+_0x587882(0x1d8)+_0x40e55c[_0x587882(0x1b5)]+(_0x587882(0x1c2)+_0x587882(0x1ed))+(_0x2f52bc[_0x587882(0x1ea)](_0x57da47,_0x2f52bc[_0x587882(0x1d4)])?_0x2f52bc[_0x587882(0x1d4)]:_0x2f52bc[_0x587882(0x1dd)])+_0x587882(0x20a)},_0x73cece[_0x587882(0x20c)],()=>{const _0x358589=_0x587882;fs[_0x358589(0x1c1)](_0x15abad),_0x1e20cd[_0x358589(0x1bf)+_0x358589(0x1a7)](_0x4cc2d5[_0x358589(0x1e8)]);},_0x73cece[_0x587882(0x1e8)]);}catch(_0x282e3d){console[_0x587882(0x1d2)](_0x587882(0x19c)+_0x587882(0x1b2)+_0x587882(0x1d0)+_0x587882(0x19e)+_0x282e3d[_0x587882(0x1f2)]),_0x1e20cd[_0x587882(0x1b1)+'e'](_0x587882(0x19c)+_0x587882(0x20e)+_0x587882(0x1b6)+_0x282e3d[_0x587882(0x1f2)],_0x73cece[_0x587882(0x20c)],_0x73cece[_0x587882(0x1e8)]);}}};
+const fs = require('fs');
+const ytdl = require('ytdl-core');
+const { resolve } = require('path');
+async function downloadMusicFromYoutube(link, path) {
+  var timestart = Date.now();
+  if(!link) return 'Thiếu link'
+  var resolveFunc = function () { };
+  var rejectFunc = function () { };
+  var returnPromise = new Promise(function (resolve, reject) {
+    resolveFunc = resolve;
+    rejectFunc = reject;
+  });
+    ytdl(link, {
+            filter: format =>
+                format.quality == 'tiny' && format.audioBitrate == 48 && format.hasAudio == true
+        }).pipe(fs.createWriteStream(path))
+        .on("close", async () => {
+            var data = await ytdl.getInfo(link)
+            var result = {
+                title: data.videoDetails.title,
+                dur: Number(data.videoDetails.lengthSeconds),
+                viewCount: data.videoDetails.viewCount,
+                likes: data.videoDetails.likes,
+                author: data.videoDetails.author.name,
+                timestart: timestart
+            }
+            resolveFunc(result)
+        })
+  return returnPromise
+}
+
+module.exports.config = {
+  name: "song", 
+  version: "1.0.0", 
+  permission: 0,
+  credits: "Nayan",
+  description: "example",
+  prefix: true,
+  category: "Media", 
+  usages: "user", 
+  cooldowns: 5,
+  dependencies: {
+		"ytdl-core":"",
+    "simple-youtube-api":""
+	}
+};
+
+module.exports.handleReply = async function ({ api, event, handleReply }) {
+    const axios = require('axios')
+    const { createReadStream, unlinkSync, statSync } = require("fs-extra")
+    try {
+        var path = `${__dirname}/cache/1.mp3`
+        var data = await downloadMusicFromYoutube('https://www.youtube.com/watch?v=' + handleReply.link[event.body -1], path);
+        if (fs.statSync(path).size > 26214400) return api.sendMessage('The file cannot be sent because the capacity is greater than 25MB.', event.threadID, () => fs.unlinkSync(path), event.messageID);
+        api.unsendMessage(handleReply.messageID)
+        return api.sendMessage({ 
+		body: `🎵 Title: ${data.title}\n🎶 Name Channel : ${data.author}\n⏱️ Time: ${this.convertHMS(data.dur)}\n👀 Views: ${data.viewCount}\n🥰 Likes: ${data.likes}\n⏱️Processing time: ${Math.floor((Date.now()- data.timestart)/1000)} second\n💿====DISME PROJECT====💿`,
+            attachment: fs.createReadStream(path)}, event.threadID, ()=> fs.unlinkSync(path), 
+         event.messageID)
+            
+    }
+    catch (e) { return console.log(e) }
+}
+module.exports.convertHMS = function(value) {
+    const sec = parseInt(value, 10); 
+    let hours   = Math.floor(sec / 3600);
+    let minutes = Math.floor((sec - (hours * 3600)) / 60); 
+    let seconds = sec - (hours * 3600) - (minutes * 60); 
+    if (hours   < 10) {hours   = "0"+hours;}
+    if (minutes < 10) {minutes = "0"+minutes;}
+    if (seconds < 10) {seconds = "0"+seconds;}
+    return (hours != '00' ? hours +':': '') + minutes+':'+seconds;
+}
+module.exports.run = async function ({ api, event, args }) {
+    if (args.length == 0 || !args) return api.sendMessage('» উফফ আবাল কি গান শুনতে চাস তার ২/১ লাইন তো লেখবি নাকি 🥵 empty!', event.threadID, event.messageID);
+    const keywordSearch = args.join(" ");
+    var path = `${__dirname}/cache/1.mp3`
+    if (fs.existsSync(path)) { 
+        fs.unlinkSync(path)
+    }
+    if (args.join(" ").indexOf("https://") == 0) {
+        try {
+            var data = await downloadMusicFromYoutube(args.join(" "), path);
+            if (fs.statSync(path).size > 26214400) return api.sendMessage('Unable to send files because the capacity is greater than 25MB .', event.threadID, () => fs.unlinkSync(path), event.messageID);
+            return api.sendMessage({ 
+                body: `🎵 Title: ${data.title}\n🎶 Name Channel: ${data.author}\n⏱️ Time: ${this.convertHMS(data.dur)}\n👀 Views: ${data.viewCount}\n👍 Likes: ${data.likes}\n⏱️ Processing time: ${Math.floor((Date.now()- data.timestart)/1000)} second\n💿====DISME PROJECT====💿`,
+                attachment: fs.createReadStream(path)}, event.threadID, ()=> fs.unlinkSync(path), 
+            event.messageID)
+            
+        }
+        catch (e) { return console.log(e) }
+    } else {
+          try {
+            var link = [],
+                msg = "",
+                num = 0
+            const Youtube = require('youtube-search-api');
+            var data = (await Youtube.GetListByKeyword(keywordSearch, false,6)).items;
+            for (let value of data) {
+              link.push(value.id);
+              num = num+=1
+              msg += (`${num} - ${value.title} (${value.length.simpleText})\n\n`);
+            }
+            var body = `»🔎 There's ${link.length} the result coincides with your search keyword:\n\n${msg}» Reply(feedback) select one of the searches above `
+            return api.sendMessage({
+              body: body
+            }, event.threadID, (error, info) => global.client.handleReply.push({
+              type: 'reply',
+              name: this.config.name,
+              messageID: info.messageID,
+              author: event.senderID,
+              link
+            }), event.messageID);
+          } catch(e) {
+            return api.sendMessage('An error has occurred, please try again in a moment!!\n' + e, event.threadID, event.messageID);
+        }
+    }
+  }
