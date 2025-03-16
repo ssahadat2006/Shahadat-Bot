@@ -1,58 +1,64 @@
 module.exports.config = {
-  name: "leave",
-  eventType: ["log:unsubscribe"],
-  version: "1.0.0",
-  credits: "Jahid Hasan Rajib",
-  description: "Notify the Bot or the person leaving the group with a random gif/photo/video",
-  dependencies: {
-    "fs-extra": "",
-    "path": ""
-  }
+	name: "leave",
+	eventType: ["log:unsubscribe"],
+	version: "1.0.0",
+	credits: "Mirai Team & Shahadat Islam",
+	description: "Notify About Members Removed Or That Have Left The Group.",
+	dependencies: {
+		"fs-extra": "",
+		"path": ""
+	}
 };
 
-module.exports.onLoad = function () {
-    const { existsSync, mkdirSync } = global.nodemodule["fs-extra"];
-    const { join } = global.nodemodule["path"];
-
-  const path = join(__dirname, "cache", "leaveGif", "randomgif");
-  if (existsSync(path)) mkdirSync(path, { recursive: true });	
-
-  const path2 = join(__dirname, "cache", "leaveGif", "randomgif");
-    if (!existsSync(path2)) mkdirSync(path2, { recursive: true });
-
-    return;
-}
-
 module.exports.run = async function({ api, event, Users, Threads }) {
-  if (event.logMessageData.leftParticipantFbId == api.getCurrentUserID()) return;
-  const { createReadStream, existsSync, mkdirSync, readdirSync } = global.nodemodule["fs-extra"];
-  const { join } =  global.nodemodule["path"];
-  const { threadID } = event;
-  const moment = require("moment-timezone");
-  const time = moment.tz("Asia/Dhaka").format("DD/MM/YYYY || HH:mm:s");
-  const hours = moment.tz("Asia/Dhaka").format("HH");
-  const data = global.data.threadData.get(parseInt(threadID)) || (await Threads.getData(threadID)).data;
-  const name = global.data.userName.get(event.logMessageData.leftParticipantFbId) || await Users.getNameUser(event.logMessageData.leftParticipantFbId);
-  const type = (event.author == event.logMessageData.leftParticipantFbId) ? "leave" : "managed";
-  const path = join(__dirname, "events", "123.mp4");
-  const pathGif = join(path, `${threadID}123.mp4`);
-  var msg, formPush
+	if (event.logMessageData.leftParticipantFbId == api.getCurrentUserID()) return;
+	const { createReadStream, existsSync, mkdirSync } = global.nodemodule["fs-extra"];
+	const { join } = global.nodemodule["path"];
+	const { threadID } = event;
+	const data = global.data.threadData.get(parseInt(threadID)) || (await Threads.getData(threadID)).data;
+	const name = global.data.userName.get(event.logMessageData.leftParticipantFbId) || await Users.getNameUser(event.logMessageData.leftParticipantFbId);
+	const botName = "𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭";
+	const ownerName = "Shahadat Islam"; 
 
-  if (existsSync(path)) mkdirSync(path, { recursive: true });
+	const leaveMessages = [
+		`${botName} বলছে: আহারে! 😾 ${ownerName} কি জানে যে তুই চলে গেছিস? 😹`,
+		`${botName} বলছে: 😾 ${ownerName} এর পারমিশন ছাড়া গ্রুপ ছাড়া যাবে না! আবার আয়! 🤭`,
+		`😹 ${name} হালার পো! একাই বেরিয়ে গেলো! ${botName} বস কিছু বলতে পারেন না? 😾`,
+		`😾 ${name} আমাদের ছেড়ে চলে গেলো... কিন্তু কোথায় যাবে? ${ownerName} দেখছে! 👀`,
+		`🔥 ${name}, এইভাবে চলে গেলে তো ${botName} কষ্ট পাবে! 😿`,
+		`😹 ${name} গেল... কিন্তু ${ownerName} জানে সব! কোথায় পালাবি? 😏`,
+		`😾 ${name}, এইভাবে পালিয়ে গেলে তো ${botName} কষ্ট পাবে! 😿`
+	];
 
-(typeof data.customLeave == "undefined") ? msg = "•—»✨ {name} ✨«—•\n ╭•┄┅═══❁🌺❁═══┅┄•╮ \n         ｢ 𝗔𝗟𝗟𝗔𝗛𝗔𝗙𝗘𝗭 ｣     \n ╰•┄┅═══❁🌺❁═══┅┄•╯ \n  •—»✨       {type}  ✨«—•\n\n•—»✨ বড্ড ভুল করলে ✨«—•  \n\n•—»✨ {name} ✨«—•\n\nইসলামিক গ্রুপ থেকে বের হয়ে \n\n যে এই সুন্দর  ইসলামিক গ্রুপ ছেরে চলে গেছে তার অনুসরণ তুমরা করো নাহ__//💙🥺-!! {session} || {time}" : msg = data.customLeave;
-  msg = msg.replace(/\{name}/g, name).replace(/\{type}/g, type).replace(/\{session}/g, hours <= 10 ? "leave time" : 
-    hours > 10 && hours <= 12 ? "__" :
-    hours > 12 && hours <= 18 ? "__" : "__").replace(/\{time}/g, time);  
+	const kickMessages = [
+		`${botName} বলছে: 😾 ${ownerName} এর পারমিশন ছাড়া বের হওয়া নিষেধ! তাই কিক খাইলি! 😿🥵`,
+		`😹 ${name} বেশি চালাক ছিলো! ${ownerName} ঠিকই ধরে ফেলে দিলো! 😈`,
+		`🔥 ${name}, চলে যেতে চেয়েছিল, কিন্তু ${botName} অনুমতি দেয়নি! তাই কিক! 😼`,
+		`🤣 ${name} কে কিক দেয়া হলো! ${ownerName} বলে দিয়েছে, দুষ্টু লোক গ্রুপে থাকবে না! 😹`,
+		`😿 ${name}, এইভাবে কিক খেলে কষ্ট লাগে না? ${botName} কিন্তু কান্না করছে! 😭`
+	];
 
-  const randomPath = readdirSync(join(__dirname, "cache", "leaveGif", "randomgif"));
+	const type = (event.author == event.logMessageData.leftParticipantFbId) 
+		? leaveMessages[Math.floor(Math.random() * leaveMessages.length)]
+		: kickMessages[Math.floor(Math.random() * kickMessages.length)];
 
-  if (existsSync(pathGif)) formPush = { body: msg, attachment: createReadStream(pathGif) }
-  else if (randomPath.length != 0) {
-    const pathRandom = join(__dirname, "cache", "leaveGif", "randomgif",`${randomPath[Math.floor(Math.random() * randomPath.length)]}`);
-    formPush = { body: msg, attachment: createReadStream(pathRandom) }
-  }
-  else formPush = { body: msg }
+	const path = join(__dirname, "cache", "leavegif");
+	const gifPath = join(path, `leave.gif`);
 
-  return api.sendMessage(formPush, threadID);
-                            }
+	if (!existsSync(path)) mkdirSync(path, { recursive: true });
+
+	(typeof data.customLeave == "undefined") 
+		? msg = `~ পালাইছে রে পালাইছে🤣. \n{name}\nReason: {type}.\n\n🔹 Bot: ${botName}\n🔹 Owner: ${ownerName}` 
+		: msg = data.customLeave;
+
+	msg = msg.replace(/\{name}/g, name).replace(/\{type}/g, type);
+
+	let formPush;
+	if (existsSync(gifPath)) {
+		formPush = { body: msg, attachment: createReadStream(gifPath) };
+	} else {
+		formPush = { body: msg };
+	}
+
+	return api.sendMessage(formPush, threadID);
+};
