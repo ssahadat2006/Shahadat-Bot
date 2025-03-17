@@ -29,4 +29,4 @@
 </p>
 
 -----------
-<div align="center"><br> <img src="https://profile-counter.glitch.me/SILENT-SOBX-MD/count.svg" /><br> ☢️_𖣘 -𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 ⚠️ 𝐂𝐡𝐚𝐭 ☢️ 𝐁𝐨𝐭</div>
+<div align="center"><br> <img src="https://profile-counter.glitch.me/SILENT-SOBX-MD/count.svg" /><br> 𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭  𝐂𝐡𝐚𝐭  𝐁𝐨𝐭</div>
