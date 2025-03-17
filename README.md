@@ -7,7 +7,7 @@
 ## CLICK <a href="https://github.com/islamickcyberchat404/ISLAMICK-CYBER-MIRAI-BOT/issues">HERE IF YOU ARE NEW TO BOTS</a>
 
 
-<img src='https://i.imgur.com/ePDUcck.jpeg'/>
+<img src='https://i.imgur.com/c6oAW6W.png'/>
 
 -------
 
