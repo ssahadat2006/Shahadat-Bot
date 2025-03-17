@@ -27,16 +27,17 @@ module.exports.onLoad = function () {
 module.exports.run = async function({ api, event }) {
     const { join } = global.nodemodule["path"];
     const { threadID } = event;
+    const botName = "𝐒𝐮𝐤𝐡𝐢 𝐌𝐞𝐰";
     const ownerName = "Shahadat Islam";
-    
 
     if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
-        api.changeNickname(`[${global.config.PREFIX}] ${ownerName}`, threadID, api.getCurrentUserID());
+        api.changeNickname(`[${global.config.PREFIX}] ${botName}`, threadID, api.getCurrentUserID());
         const fs = require("fs");
         return api.sendMessage("", threadID, () => api.sendMessage(
             {
                 body: `🤖 আসসালামু আলাইকুম!    
-আমি পিচ্চি গ্রুপে চলে এসেছি ! 😈   
+${botName} Connected! ✅   
+আমি পিচ্চি গ্রুপে চলে এসেছি 😘
 
 🔹 যেকোনো কমান্ড দেখতে ${global.config.PREFIX}help ব্যবহার করুন।   
 🔹 সাহায্যের জন্য ${ownerName} কে নক করতে পারেন।   
